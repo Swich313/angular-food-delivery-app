@@ -1,0 +1,6 @@
+.layout {
+  @apply mx-auto rounded-lg overflow-hidden shadow;
+  max-width: 600px;
+}
+
+/*# sourceMappingURL=layout.component.css.map */

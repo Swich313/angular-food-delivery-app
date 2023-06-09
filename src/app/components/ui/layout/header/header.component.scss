@@ -1,0 +1,35 @@
+.nav {
+  @apply bg-white p-5;
+  ul {
+    @apply flex items-center justify-between;
+    li {
+      a {
+        @apply relative text-neutral-500;
+
+        .icon {
+          height: 2.5rem;
+          width: 2.5rem;
+          font-size: 2.5rem;
+        }
+
+        &.active {
+          @apply text-orange-500;
+
+          &::after {
+            @apply w-full bg-orange-500;
+          }
+        }
+
+        &:hover::after {
+          @apply w-full;
+        }
+
+        &::after {
+          @apply w-0 h-1.5 rounded bg-neutral-500 transition-all duration-300
+          absolute -bottom-1.5 left-0;
+          content: '';
+        }
+      }
+    }
+  }
+}

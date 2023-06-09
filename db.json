@@ -1,0 +1,24 @@
+{
+  "products": [
+    {"id":  1, "title": "Hamburger", "price":  6.45, "type": "burger"},
+    {"id":  2, "title": "Cheeseburger", "price":  7.45, "type": "burger"},
+    {"id":  3, "title": "Bacon Cheeseburger", "price":  9.50, "type": "burger"},
+    {"id":  4, "title": "Double Cheeseburger", "price":  10.50, "type": "burger"},
+    {"id":  5, "title": "BBQ Onion", "price":  8.50, "type": "burger"},
+    {"id":  6, "title": "Mushroom", "price":  8.50, "type": "burger"},
+    {"id":  7, "title": "Famous Turkey", "price":  8.50, "type": "burger"},
+    {"id":  8, "title": "Spicy Jalapeno", "price":  8.50, "type": "burger"},
+    {"id":  9, "title": "Buffalo Chicken", "price":  8.50, "type": "chicken sandwich"},
+    {"id":  10, "title": "Crispy Chicken", "price":  8.50, "type": "chicken sandwich"},
+    {"id":  11, "title": "Chicky Chicky Parm Parm", "price":  9.50, "type": "chicken sandwich"},
+    {"id":  12, "title": "Plain All Beef Dog", "price":  5.4, "type": "hot dog"},
+    {"id":  13, "title": "Chili Cheese Dog", "price":  5.4, "type": "hot dog"},
+    {"id":  14, "title": "Zum Zum", "price":  5.4, "type": "hot dog"},
+    {"id":  15, "title": "Coke", "price":  3.09, "type": "drink"},
+    {"id":  16, "title": "Diet Coke", "price":  3.09, "type": "drink"},
+    {"id":  17, "title": "Ginger Ale", "price":  3.09, "type": "drink"},
+    {"id":  18, "title": "Dr Pepper", "price":  3.09, "type": "drink"},
+    {"id":  19, "title": "Orange", "price":  3.09, "type": "drink"},
+    {"id":  20, "title": "Sprite", "price":  3.09, "type": "drink"}
+  ]
+}
