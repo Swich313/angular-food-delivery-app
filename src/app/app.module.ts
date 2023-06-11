@@ -10,6 +10,7 @@ import { SaleComponent } from './components/screens/sale/sale.component'
 import { FavouritesComponent } from './components/screens/favourites/favourites.component'
 import { ProfileComponent } from './components/screens/profile/profile.component'
 import { HttpClientModule } from '@angular/common/http'
+import { HomeModule } from './components/screens/home/home.module'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http'
     LayoutModule,
     NoopAnimationsModule,
     HeaderModule,
-    HttpClientModule
+    HttpClientModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
